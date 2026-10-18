@@ -1,0 +1,2 @@
+snowflake-snowpark-python>=1.30,<2
+pandas>=2.0,<3

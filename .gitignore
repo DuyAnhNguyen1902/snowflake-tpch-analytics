@@ -1,0 +1,43 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Secrets and Snowflake client configuration
+.env
+.env.*
+!.env.example
+connections.toml
+*.pem
+*.p8
+*.key
+.snowsql/
+.snowflake/
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs, caches and local outputs
+*.log
+*.tmp
+*.bak
+*.zip
+dist/
+build/
+tmp/
+
+# Power BI local/temporary artifacts (the tracked PBIX is intentionally kept)
+*.pbix~
+*.pbit~
+.pbi/
+
+# Superseded/raw evidence
+screenshots/archive/
